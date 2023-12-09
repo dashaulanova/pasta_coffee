@@ -1,0 +1,122 @@
+body {
+	background-color: #faf287;
+}
+
+h1 {
+}
+
+a {
+	text-decoration: none;
+	color: #0C58C5;
+}
+
+.row {
+	margin:0;
+}
+
+@media (min-width: 960px) {
+	.row {
+		height: 50%;
+	}
+}
+
+.col {
+	padding: 0 0 0 0;
+}
+
+main {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.first-screen {
+	background-color: #faf287; 
+	padding: 0 0 0 0;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	border-top: 4px solid black;
+
+}
+
+@media (min-width: 920px) {
+	.first-screen {
+		height: 100vh;
+	}
+}
+
+.ellipse {
+	width: 100%;
+}
+
+.menu-items {
+	text-decoration: wavy underline #0C58C5;
+	color: #0C58C5;
+	font-weight: bold;
+	min-height: 80px;
+}
+
+.description {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 2% 2% 2% 2%;
+}
+
+
+/*.first-screen .row {
+	height: 50%;
+}*/
+.cell-first-level {
+	
+	text-align: center;
+	height: 100%;
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;	
+}
+
+.recepies {
+	font-size: 200%;
+}
+
+.first-screen > div > div {
+}
+
+.first-screen > div {
+	height: 50%;
+}
+
+.labyrint {
+	max-height: 29vh;
+}
+
+.cell-second-level {
+	border-right: 4px solid black;
+	border-bottom: 4px solid black;
+	display: flex;
+	align-items: center;
+}
+
+.cell-second-level div {
+	align-content: center;
+}
+
+.alternative {
+	transform: rotate(45deg);
+	font-weight: bold;
+	@media (max-width: 500px){
+		font-size: 60%;
+	}
+}
+
+.del-right-border {
+	border-right: none;
+}
+
+.del-bottom-border {
+	border-bottom: none;
+}
+
+.del-left-border {
+	border-left: none;
+}
+
